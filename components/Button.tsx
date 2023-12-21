@@ -28,8 +28,7 @@ const Button = ({
     const renderButton = () => (
         <>
             <button
-                className={`${className || ''} cursor-pointer 
-                    flex items-center justify-center gap-3 rounded-full ${border ? `border ${variant}` : `${variant}`}`}
+                className={`${className || ''} cursor-pointer flex items-center justify-center gap-3 rounded-full ${border ? `border ${variant}` : `${variant}`}`}
                 onClick={onClick}
                 type={type}
                 disabled={isLoading}
@@ -41,8 +40,8 @@ const Button = ({
                     </svg>
                 ) : (
                     <>
-                        {icon && <Image src={icon} alt={title} width={24} height={24} />}
                         <span className="bold-16 whitespace-nowrap">{title}</span>
+                        {icon && <Image src={icon} alt={title} width={24} height={24} />}
                     </>
                 )}
             </button>

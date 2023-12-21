@@ -8,7 +8,7 @@ import Image from 'next/image'
 const NAV_LINKS = [
     { href: '/work', key: 'work', label: '  Work' },
     { href: '/about', key: 'about', label: 'About Us' },
-    { href: '/#Services', key: 'services', label: 'Services' },
+    { href: '#services', key: 'services', label: 'Services' },
     { href: '/contact', key: 'contact', label: 'Contact Us' },
 ];
 
@@ -44,7 +44,7 @@ const NavBar = () => {
                         <Link
                             href={link.href}
                             key={link.key}
-                            className="text-[#ee9c00] flexCenter cursor-pointer pb-1.5 transition-all hover:text-[#954800]"
+                            className="flexCenter cursor-pointer pb-1.5 transition-all hover:text-textHover"
                         >
                             {link.label}
                         </Link>
@@ -52,7 +52,7 @@ const NavBar = () => {
                 </ul>
                 <div className="lg:flexCenter hidden">
                     <Button
-                        className="transform border bg-[#0527cf] border-[#0527cf] hover:bg-[#283b43] hover:border-[#283b43] rounded-md p-3"
+                        className="border-2 hover:bg-buttonHover rounded-md p-3"
                         href="/contact"
                         type="button"
                         title="START A PROJECT"

@@ -9,8 +9,8 @@ const HomeHero = () => {
             <div className='max-container padding-container pt-[2rem] pb-[2rem] md:pt-[3.5rem] md:pb-[3.5rem]'>
                 <div className='z-10 flex-col justify-between flex relative'>
                     <div className='max-w-[53.75rem]'>
-                        <h1 className='font-medium leading-tight text-4xl sm:text-5xl md:text-5xl lg:text-6xl'>
-                            Crafting Exceptional Web Experiences for Your Success
+                        <h1 className='text-white font-medium leading-tight text-4xl sm:text-5xl md:text-5xl lg:text-6xl'>
+                            Creating Outstanding Web Experiences for Your <span className='text-text'>Success</span>
                         </h1>
                     </div>
 
@@ -25,6 +25,7 @@ const HomeHero = () => {
                                 and success.
                             </p>
                             <Button
+                                href='/contact'
                                 className='rounded-md p-3 tracking-tight border-2 hover:bg-buttonHover md:text-sm'
                                 type='button'
                                 title='START A PROJECT'

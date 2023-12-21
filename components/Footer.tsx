@@ -16,6 +16,7 @@ const Footer = () => {
                                 <Link href="#work" className='pl-[1.12rem] pr-[1.125rem] p-2.5 inline-block transition-all hover:text-[#954800]'>Work</Link>
                                 <Link href="/about" className='pl-[1.12rem] pr-[1.125rem] p-2.5 inline-block transition-all hover:text-[#954800]'>About Us</Link>
                                 <Link href="/contact" className='pl-[1.12rem] pr-[1.125rem] p-2.5 inline-block transition-all hover:text-[#954800]'>Contact Us</Link>
+                                <Link href="/contact" className='pl-[1.12rem] pr-[1.125rem] p-2.5 inline-block transition-all hover:text-[#954800]'>Terms & Conditions</Link>
                             </div>
                             <div className='flex gap-x-4 justify-center'>
                                 <Link
@@ -34,7 +35,10 @@ const Footer = () => {
                                 </Link>
                             </div>
                         </div>
-                        <div className='text-center justify-center items-center flex'>
+
+                        <div className="border bg-white" />
+
+                        <div className='text-center justify-center items-center flex mt-[1rem]'>
                             <div className='text-[#ee9c004d]'>
                                 @ 2024 Stakis | All rights reserved
                             </div>

@@ -145,6 +145,11 @@ p {
   }
 }
 
+/* input:-webkit-autofill {
+  background-color: transparent;
+  color: #ee9c00;
+} */
+
 .border-gradient-pink-blue {
   border: 2px solid;
   --border-gradient: linear-gradient(to right, #ff66cc, #66ccff);
